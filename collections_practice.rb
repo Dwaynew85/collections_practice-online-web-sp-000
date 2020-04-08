@@ -33,4 +33,12 @@ def sum_array(array)
   array.inject { |sum, n| sum + n }
 end
 
-  
+def add_s (array)
+  array.collect.with_index do |item, index|
+    if index == 1 
+      word 
+    else 
+      item + "s"
+    end
+  end
+end
