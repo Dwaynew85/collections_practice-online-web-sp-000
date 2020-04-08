@@ -27,7 +27,7 @@ end
 
 def find_a(array)
   array.each do |i|
-    if i.start_with?(a)
+    if i.start_with?("a")
       puts i
     end
   end
