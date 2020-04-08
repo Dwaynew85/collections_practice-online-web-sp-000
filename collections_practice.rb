@@ -28,7 +28,7 @@ end
 def find_a(array)
   array.each do |i|
     if i.start_with?(a)
-      puts i 
+      puts i
     end
   end
 end
