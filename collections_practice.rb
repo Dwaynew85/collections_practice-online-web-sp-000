@@ -36,7 +36,7 @@ end
 def add_s (array)
   array.collect.with_index do |item, index|
     if index == 1
-      word
+      item
     else
       item + "s"
     end
